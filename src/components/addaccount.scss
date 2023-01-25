@@ -1,0 +1,24 @@
+.addAccountContainer{
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    .formContainer{
+        margin: auto;
+        .formInput{
+    
+            display: flex;
+            flex-direction: column;
+            input{
+                margin-top: 20px;
+            }
+            select{
+                margin-top: 20px;
+            }
+           
+        }
+        button{
+            margin-top: 20px;
+            
+        }
+    }
+}
