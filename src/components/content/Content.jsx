@@ -39,9 +39,9 @@ const Content = (props) => {
               className="videoContainer"
               width={"100%"}
               height={"200px"}
-              playing={true}
+              // playing={true}
               loop={true}
-              controls={true}
+              // controls={true}
               // url={[
               //   {
               //     src: `${props.complaintProps.videoUrl}.mp4`,
