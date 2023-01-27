@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import "./addaccount.scss";
-import { auth, db } from "../firebase";
+import { auth, db } from "../../firebase";
 import { getDatabase, ref, child, set } from "firebase/database";
 import { createUserWithEmailAndPassword } from "firebase/auth";
+
 const AddAccount = () => {
   const [data, setData] = useState({});
   const [dep, setDep] = useState("Plumbing");
   const [status, setStatus] = useState("");
+
   useEffect(() => {
     console.log(dep);
   });
@@ -26,6 +28,7 @@ const AddAccount = () => {
       //   ...data,
       //   timeStamp: serverTimestamp(),
       // });
+
       set(ref(db, `Staff/${dep}/${res.user.uid}`), {
         name: "Name will be provided",
       });

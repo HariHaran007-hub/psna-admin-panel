@@ -1,0 +1,21 @@
+.addAccountContainer {
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+}
+.addAccountContainer .formContainer {
+  margin: auto;
+}
+.addAccountContainer .formContainer .formInput {
+  display: flex;
+  flex-direction: column;
+}
+.addAccountContainer .formContainer .formInput input {
+  margin-top: 20px;
+}
+.addAccountContainer .formContainer .formInput select {
+  margin-top: 20px;
+}
+.addAccountContainer .formContainer button {
+  margin-top: 20px;
+}/*# sourceMappingURL=addaccount.css.map */

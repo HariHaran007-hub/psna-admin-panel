@@ -1,0 +1,74 @@
+.viewIssuesContainer {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.viewIssuesContainer .viewIssuesWraper {
+  display: flex;
+  flex-direction: row;
+}
+.viewIssuesContainer .viewIssuesWraper .issueContainer {
+  display: grid;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  row-gap: 10px;
+  overflow: scroll;
+  max-height: 90vh;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+}
+.viewIssuesContainer .viewIssuesWraper .issueContainer .issueItem {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  border-radius: 2px;
+  flex-direction: column;
+}
+.viewIssuesContainer .viewIssuesWraper .issueContainer .issueItem img {
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2px;
+  height: 100px;
+  align-self: center;
+  margin-top: 5px;
+}
+.viewIssuesContainer .viewIssuesWraper .issueContainer .issueItem .issueContent {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.viewIssuesContainer .viewIssuesWraper .issueContainer .issueItem .issueContent .titleItem {
+  display: flex;
+  align-items: center;
+}
+.viewIssuesContainer .viewIssuesWraper .issueContainer .issueItem .issueContent .titleItem .reportProblem {
+  font-size: 20px;
+}
+.viewIssuesContainer .viewIssuesWraper .issueContainer .issueItem .issueContent .titleItem .title {
+  inline-size: 150px;
+  overflow: hidden;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 16px;
+  flex-wrap: wrap;
+  margin-left: 5px;
+}
+.viewIssuesContainer .viewIssuesWraper .issueContainer .issueItem .issueContent .contentItem {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.viewIssuesContainer .viewIssuesWraper .issueContainer .issueItem .issueContent .contentItem .reportProblem {
+  font-size: 16px;
+}
+.viewIssuesContainer .viewIssuesWraper .issueContainer .issueItem .issueContent .contentItem .loc {
+  font-size: 14px;
+  text-transform: capitalize;
+}/*# sourceMappingURL=viewissues.css.map */

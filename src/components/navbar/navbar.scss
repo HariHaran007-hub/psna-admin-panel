@@ -1,0 +1,23 @@
+.sidebarContainer{
+    width: 100vw;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    .sidebarLogo{
+        padding: 10px;
+        font-weight: 700;
+    }
+
+    .navContainer{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        a{
+            text-decoration: none;
+        }
+    }
+
+}

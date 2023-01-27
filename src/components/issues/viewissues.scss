@@ -1,0 +1,84 @@
+.viewIssuesContainer{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  
+    .viewIssuesWraper{
+        display: flex;
+        flex-direction: row;  
+       
+        .issueContainer{
+            display: grid;
+            column-gap: 10px;
+            row-gap: 10px;
+            overflow: scroll;
+            max-height: 90vh;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+            .issueItem{
+                height: min-content;
+                padding: 5px;
+                background-color: white;
+                display: flex;
+                border-radius: 2px;
+                flex-direction: column;
+                
+                img{
+                    width: 150px;
+                    object-fit: cover;
+                    border-radius: 2px;
+                    height: 100px;
+                    align-self: center;
+                    margin-top: 5px;
+                }
+                .issueContent{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                    .titleItem{
+                        display: flex;
+                        align-items: center;
+                        .reportProblem{
+                            font-size: 20px;
+                        }
+                        .title{
+                            inline-size: 150px; 
+                            overflow: hidden;
+                            text-transform:capitalize;
+                            font-weight: 700;
+                            font-size: 16px;
+                            flex-wrap: wrap;
+                            margin-left: 5px;
+                            
+                        }
+                    }
+
+                    .contentItem{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 10px;
+                        .reportProblem{
+                            font-size: 16px;
+                        }
+                        .loc{
+                           font-size: 14px;
+                           text-transform:capitalize;
+                        }
+                    }
+                    
+                    
+                }
+            }
+           
+        }
+
+    }
+
+    
+    
+ 
+}

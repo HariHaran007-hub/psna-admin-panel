@@ -1,0 +1,21 @@
+.sidebarContainer {
+  width: 100vw;
+  display: flex;
+  background: white;
+  justify-content: space-between;
+}
+.sidebarContainer .sidebarLogo {
+  padding: 10px;
+  font-weight: 700;
+}
+.sidebarContainer .navContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.sidebarContainer .navContainer a {
+  text-decoration: none;
+}/*# sourceMappingURL=navbar.css.map */

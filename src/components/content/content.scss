@@ -1,0 +1,57 @@
+.contentContainer{
+    height: 90vh;
+    width: 100vh;
+    background-color: white;
+    margin-left: 10px;
+    overflow-y: scroll;
+    .content{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        .loc{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .locationIcon{
+                font-size: 18px;
+            }
+            .locHead{
+                font-weight: 600;
+                font-size: 18px;
+            }
+            .locValue{
+                font-weight: 400;
+                padding-left: 5px;
+                font-size: 18px;
+            }
+        }
+
+        .imageListContainer{
+            display: flex;
+            flex-direction:column;
+            gap: 10px;
+            margin-top: 20px;
+            .imgHead{
+                font-weight: 600;
+                font-size: 18px;
+            }
+            .imgList{
+                display: flex;
+                flex-wrap: wrap;
+                img{
+                    height: 150px;
+                    width: 150px;
+                    border-radius: 10px;
+                    margin: 10px;
+                }
+            }
+        }
+
+        .videoHead{
+            
+            font-weight: 700;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}
